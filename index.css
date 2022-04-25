@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+main{
+    background-color: rgb(181, 48, 243);
+}
+
+/* NAV BAR */
+
+
+
+/* INTRODUCTION */
+.introduction {
+    padding-top: 25px;
+}
+
+.introduction h1{
+    color: white;
+    text-align: center;
+    font-size: 3em;
+}
+
+.introduction p{
+    color: white;
+    text-align: center;
+    padding-top: 25px;
+    font-size: 1.5em;
+}
+
+/* ABOUT ME */
+.aboutMe{
+    background-color: white;
+    border-radius:5px;
+    border: 1px solid rgba(0,0,0,.125);
+    margin: 20px;
+    height: 20vh;
+    width: 95vw;
+}
+.aboutMe h1 {
+    font-size: 3em;
+    text-align: center;
+    padding-bottom: 20px;
+}
+.aboutMe p{
+    font-size: 1.5em;
+}
+
+/* PROJECTS */
+.projects{
+    background-color: white;
+    border-radius:5px;
+    border: 1px solid rgba(0,0,0,.125);
+    border-color: black;
+    margin: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    width: 95vw;
+}
+
+.projects img{
+    width: 30vw;
+    height: 30vh;
+    padding: 10px;
+    margin: auto;
+}
+
+.projects h2{
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.projects p {
+    text-align: center;
+    padding-bottom: 50px;
+}
